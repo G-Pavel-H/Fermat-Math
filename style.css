@@ -1,0 +1,36 @@
+.main{
+	width: 500px;
+	height: 500px;
+	margin:auto;
+
+}
+.table{
+	width: 100%;
+	font-family: 'PT Sans', sans-serif;
+	border-top: 3px solid #6e5f5e;
+	border-bottom: 3px solid #6e5f5e ;
+	border-radius: 2px;
+	padding: 5px;
+
+}
+
+.output{
+	width: 110px;
+	height: 70px;
+	color: black;
+	background-color: #7ee9f7;
+	padding: 5px;
+	margin: auto;
+	border: 3px;
+	border-radius: 2px;
+	font-size: 22px;
+	font-family: 'PT Sans', sans-serif;
+	cursor: pointer;
+}
+.output:hover{
+	background-color: #63bec9;
+}
+#tr1 td{
+	max-width: 110px;
+	overflow-x: auto;
+}
